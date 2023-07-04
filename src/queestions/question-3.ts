@@ -5,4 +5,4 @@ type Letters = 'a' | 'b' | 'c'
     * Remove c from Letters
 */
 
-// type RemoveC
+// type RemoveC 

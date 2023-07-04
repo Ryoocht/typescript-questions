@@ -11,10 +11,10 @@ interface Bird {
 }
 
 /* *
- * Complete isFish predicate function
- * isFish always returns type of Fish if pet is type of Fish
+ * Complete returnFish predicate function
+ * returnFish only returns type of Fish if pet is type of Fish
  */
-const isFish = (pet: Fish | Bird) => {};
+const returnFish = (pet: Fish | Bird) => {};
 
 /* *
  * Complete petPerfom predicate function

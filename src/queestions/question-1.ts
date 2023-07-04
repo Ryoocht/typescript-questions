@@ -6,7 +6,7 @@ interface Resident {
 
 /* *
     * Create Doctor type extends Resident type 
-    * Make speciality field in Resident optional
+    * Make speciality field in Doctor optional
     * Add experience field to Doctor type
 */
 
