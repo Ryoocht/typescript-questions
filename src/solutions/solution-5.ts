@@ -11,12 +11,12 @@ interface SolutionBird {
 }
 
 /* *
-  * Complete isFish predicate function
-  * isFish always returns type of Fish if pet is type of Fish
+ * Complete isFish type predicate function
+ * isFish returns boolean to check if argument is Fish type
 */
 const solutionIsFish = (pet: SolutionFish | SolutionBird): pet is SolutionFish => {
   // return typeof pet.age === 'number'
-  return (pet as Fish).swim !== undefined;
+  return (pet as SolutionFish).swim !== undefined;
 }
 
 /* *

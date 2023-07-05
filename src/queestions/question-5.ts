@@ -11,14 +11,13 @@ interface Bird {
 }
 
 /* *
- * Complete returnFish predicate function
- * returnFish only returns type of Fish if pet is type of Fish
+ * Complete isFish type predicate function
+ * isFish returns boolean to check if argument is Fish type
  */
-const returnFish = (pet: Fish | Bird) => {};
+const isFish = (pet: Fish | Bird) => {};
 
 /* *
- * Complete petPerfom predicate function
+ * Complete petPerfom type predicate function
  * petPerfom returns either swim of fly function depending on pet type
  */
-
 const petPerform = (pet: Fish | Bird) => {};
