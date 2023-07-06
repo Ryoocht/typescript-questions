@@ -21,7 +21,7 @@ const solutionIsFish = (pet: SolutionFish | SolutionBird): pet is SolutionFish =
 
 /* *
   * Complete petPerfom predicate function
-  * petPerfom returns either swim of fly functions depending on pet type
+  * petPerfom returns either swim or fly functions depending on pet type
 */
 
 const solutionPetPerform = (pet: SolutionFish | SolutionBird) => {

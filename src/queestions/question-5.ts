@@ -18,6 +18,6 @@ const isFish = (pet: Fish | Bird) => {};
 
 /* *
  * Complete petPerfom type predicate function
- * petPerfom returns either swim of fly function depending on pet type
+ * petPerfom returns either swim or fly function depending on pet type
  */
 const petPerform = (pet: Fish | Bird) => {};
